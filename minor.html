@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="my.js"></script>
+	<title>Mall Map</title>
+</head>
+<body>
+	<svg class="map map--4" viewBox="0 0 1200 800" width="50%" height="50%" preserveAspectRatio="xMidYMid meet">
+								<title>Map Level 2</title>
+								<polygon points="1035.94 787.41 1035.94 423.16 855.37 423.16 855.37 350.52 1187.28 350.52 1187.28 12.59 548.09 12.59 548.09 68.87 437.36 68.87 437.36 12.59 49.37 12.59 49.37 366.5 12.72 366.5 12.72 787.41 356.2 787.41 414.93 584.41 554.4 584.41 627.81 787.41 1035.94 787.41" class="map__ground" />
+								<path d="M1187.28,12.59V350.52H855.37v72.64h180.58V787.41H627.81l-73.41-203H414.93l-58.73,203H12.72V366.5H49.37V12.59h388V68.87H548.08V12.59h639.19M1200,0H535.36V56.28H450.09V0H36.65V353.91H0V800H365.8l2.64-9.13L424.52,597H545.44l70.39,194.65,3,8.35h429.82V410.57H868.09V363.11H1200V0h0Z" class="map__outline" />
+								<path d="M674.5,647c2,16.3,29.2,31.3,51.4,28.9c51.9-5.8,80.3-107.4,64.7-119c-6.4-4.7-27.9,11.2-70.8,43.1C676.6,632,673.7,640.5,674.5,647z" class="map__lake" />			
+								<ellipse cx="738.82" cy="595.48" rx="13.95" ry="13.8" class="map__tree" />
+								<ellipse cx="768.46" cy="605.4" rx="13.95" ry="13.8" class="map__tree" />
+								<ellipse cx="744.64" cy="624.92" rx="13.95" ry="13.8" class="map__tree" />
+								<rect x="666.9" y="565.6" width="26.3" height="26" class="map__space" />
+								<path id="tattoo" d="M454.8,266.2h63c13.4-0.1,24.4,10.8,24.5,24.2c0,0,0,0,0,0l0,0v199.4c-0.1,13.4-11.1,24.3-24.5,24.2h-63c-13.4,0.1-24.4-10.8-24.5-24.2c0,0,0,0,0,0l0,0V290.4C430.3,277,441.3,266.1,454.8,266.2C454.7,266.2,454.7,266.2,454.8,266.2L454.8,266.2L454.8,266.2z" class="map__space" />
+								<rect x="282.3" y="478.1" width="26.3" height="26" class="map__space" />
+								<rect id="hair" x="12.7" y="366.5" width="202.4" height="175.1" class="map__space" />
+								<rect x="12.7" y="550.6" width="50.9" height="236.8" class="map__space" />
+								<circle data-space="4.07" cx="143.1" cy="708.1" r="49.5" class="map__space" />
+								<circle data-space="4.01" cx="288.6" cy="658.6" r="66" class="map__space" />
+								<polygon id="theater" points="49.4,354.1 362.1,354.1 362.1,230.9 600,230.9 600,297.1 855.4,297.1 855.4,12.6 548.1,12.6 548.1,68.9 437.4,68.9 437.4,12.6 49.4,12.6 " class="map__space" />
+								<rect x="1065.6" y="12.6" width="121.7" height="110.5" class="map__space" />
+								<rect id="petereng" x="1065.6" y="132.1" width="121.7" height="218.4" class="map__space" />
+								<polygon points="901.3,92.6 886.9,67.8 901.3,43 929.9,43 944.2,67.8 929.9,92.6 " class="map__space" />
+								<polygon points="953.3,129.1 938.6,103.6 953.3,78.1 982.8,78.1 997.5,103.6 982.8,129.1 " class="map__space" />
+								<rect x="951.6" y="213.1" width="73.5" height="73.5" class="map__space" />
+								<rect data-space="4.06" x="639.6" y="399.5" width="151.5" height="121.1" class="map__space" />
+								<rect id="food" x="855.4" y="423.2" width="180.6" height="364.2" class="map__space" />
+								<polygon points="613.2,747 846.6,658.6 846.6,787.4 627.8,787.4" class="map__space" />
+							</svg>
+
+	
+							<svg class="map map--3" viewBox="0 0 1200 800" width="50%" height="50%" preserveAspectRatio="xMidYMid meet">
+								<title>Map Level 3</title>
+								<polygon points="1035.94 787.41 1035.94 423.16 855.37 423.16 855.37 350.52 1187.28 350.52 1187.28 12.59 548.09 12.59 548.09 68.87 437.36 68.87 437.36 12.59 49.37 12.59 49.37 366.5 12.72 366.5 12.72 787.41 356.2 787.41 414.93 584.41 554.4 584.41 627.81 787.41 1035.94 787.41" class="map__ground" />
+								<path d="M1187.28,12.59V350.52H855.37v72.64h180.58V787.41H627.81l-73.41-203H414.93l-58.73,203H12.72V366.5H49.37V12.59h388V68.87H548.08V12.59h639.19M1200,0H535.36V56.28H450.09V0H36.65V353.91H0V800H365.8l2.64-9.13L424.52,597H545.44l70.39,194.65,3,8.35h429.82V410.57H868.09V363.11H1200V0h0Z" class="map__outline" />
+								<rect x="666.9" y="565.6" width="26.3" height="26" class="map__space" />
+								<path data-space="3.07" d="M454.8,266.2h63c13.4-0.1,24.4,10.8,24.5,24.2c0,0,0,0,0,0l0,0v199.4c-0.1,13.4-11.1,24.3-24.5,24.2h-63c-13.4,0.1-24.4-10.8-24.5-24.2c0,0,0,0,0,0l0,0V290.4C430.3,277,441.3,266.1,454.8,266.2C454.7,266.2,454.7,266.2,454.8,266.2L454.8,266.2L454.8,266.2z" class="map__space" />
+								<polygon points="898.1,182.4 919.3,194.5 919.3,218.7 898.1,230.9 876.9,218.7 876.9,194.5 " class="map__space" />
+								<rect x="282.3" y="478.1" width="26.3" height="26" class="map__space" />
+								<rect x="381.5" y="12.6" width="55.8" height="55.8" class="map__space" />
+								<rect x="566" y="12.6" width="110.6" height="110.6" class="map__space" />
+								<rect x="566" y="157.4" width="110.6" height="73.5" class="map__space" />
+								<rect id="pb" x="742" y="12.6" width="445.3" height="110.6" class="map__space" />
+								<rect id="wrang" x="972.8" y="128.5" width="214.5" height="222" class="map__space" />
+								<rect id="mfti" x="756" y="423.2" width="279.9" height="161.2" class="map__space" />
+								<rect id="rol" x="876.9" y="591.6" width="159" height="195.8" class="map__space" />
+								<polygon data-space="3.04" points="871.6,680 589.4,680 627.8,787.4 871.6,787.4 " class="map__space" />
+								<circle data-space="3.06" cx="735.7" cy="343.8" r="55.7" class="map__space" />
+								<rect x="12.7" y="696" width="91.4" height="91.4" class="map__space" />
+								<rect id="rbk1" x="12.7" y="591.6" width="146.9" height="97.9" class="map__space" />
+								<rect id="rbk"  x="12.7" y="366.5" width="146.9" height="217.9" class="map__space" />
+								<polygon data-space="3.05" points="356.2,787.4 414.9,584.4 275.1,584.4 275.1,787.4 " class="map__space" />
+								<rect id="bazaar" x="49.4" y="12.6" width="312.7" height="343" class="map__space" />
+							</svg>
+						
+							
+							<svg class="map map--1" viewBox="0 0 1200 800" width="50%" height="50%" preserveAspectRatio="xMidYMid meet">
+								<title>Map Level 1</title>
+								<polygon points="1035.94 787.41 1035.94 423.16 855.37 423.16 855.37 350.52 1187.28 350.52 1187.28 12.59 548.09 12.59 548.09 68.87 437.36 68.87 437.36 12.59 49.37 12.59 49.37 366.5 12.72 366.5 12.72 787.41 356.2 787.41 414.93 584.41 554.4 584.41 627.81 787.41 1035.94 787.41" class="map__ground" />
+								<path d="M1187.28,12.59V350.52H855.37v72.64h180.58V787.41H627.81l-73.41-203H414.93l-58.73,203H12.72V366.5H49.37V12.59h388V68.87H548.08V12.59h639.19M1200,0H535.36V56.28H450.09V0H36.65V353.91H0V800H365.8l2.64-9.13L424.52,597H545.44l70.39,194.65,3,8.35h429.82V410.57H868.09V363.11H1200V0h0Z" class="map__outline" />
+								<path d="M425.68,198.63c-6.85-14.83-46.38-30.35-58-11.24-41.24,67.9-83.63,118.16-65.12,124.22,7.55,2.48,56.77.11,94.11-54.39,21.35-31.13,31.71-52.74,29-58.59h0Z" class="map__lake" />
+								<ellipse cx="389.64" cy="214.94" rx="13.95" ry="13.8" class="map__tree" />
+								<ellipse cx="369.54" cy="191.71" rx="13.95" ry="13.8" class="map__tree" />
+								<ellipse cx="354.59" cy="220.27" rx="13.95" ry="13.8" class="map__tree" />
+								<path d="M724.87,696.45c14.61,7.58,42.34-6.42,52.85-26.15,24.57-46.13-43.25-126.94-61.66-120.57-7.5,2.6-6.47,29.34-4.4,82.81C713.74,686.25,719.12,693.46,724.87,696.45Z" class="map__lake" />
+								<ellipse cx="738.82" cy="595.48" rx="13.95" ry="13.8" class="map__tree" />
+								<ellipse cx="768.46" cy="605.4" rx="13.95" ry="13.8" class="map__tree" />
+								<ellipse cx="744.64" cy="624.92" rx="13.95" ry="13.8" class="map__tree" />
+								<polygon data-space="1.04" points="874.9,554.3 874.9,422.9 1036.1,422.9 1036.1,576.6 965.2,576.6 965.2,555" class="map__space" />
+								<rect x="854.08" y="639.79" width="88.09" height="147.62" class="map__space" />
+								<rect x="947.85" y="639.79" width="88.09" height="147.62" class="map__space" />
+								<polygon points="768.46 722.99 789.65 735.1 789.65 759.31 768.46 771.42 747.27 759.31 747.27 735.1 768.46 722.99" class="map__space" />
+								<rect x="666.88" y="565.62" width="26.26" height="25.99" class="map__space" />
+								<rect data-space="1.07" x="716.66" y="354.39" width="110.72" height="136.73" class="map__space" />
+								<rect x="602.1" y="354.39" width="110.72" height="136.73" class="map__space" />
+								<path id="app"  d="M454.76,266.19h63a24.34,24.34,0,0,1,24.47,24.21h0V489.82A24.34,24.34,0,0,1,517.74,514h-63a24.34,24.34,0,0,1-24.47-24.21h0V290.4a24.34,24.34,0,0,1,24.47-24.21h0Z" class="map__space" />
+								<path d="M492.72,123.19c30.57,0,55.36-24.53,55.36-54.78H437.36C437.36,98.67,462.15,123.19,492.72,123.19Z" class="map__space" />
+								<rect id="sc1" x="600" y="12.59" width="93.14" height="168.14" class="map__space" />
+								<rect id="sc2"  x="698.07" y="12" width="93.14" height="168.14" class="map__space" />
+								<rect id="sc3" x="796.13" y="12" width="93.14" height="107.12" class="map__space" />
+								<rect id="sc4" x="894.18" y="12" width="93.14" height="107.12" class="map__space" />
+								<rect id="sc5"  x="991.9" y="12" width="195.4" height="339.1" class="map__space" />
+								<rect x="48.89" y="209.37" width="169.92" height="94.85" class="map__space" />
+								<rect id="le1"  x="49.12" y="110.57" width="254.49" height="94.85" class="map__space" />
+								<rect id="le2"  x="49.09" y="12.16" width="334.73" height="94.85" class="map__space" />
+								<polygon points="898.12 182.42 919.31 194.53 919.31 218.74 898.12 230.85 876.93 218.74 876.93 194.53 898.12 182.42" class="map__space" />
+								<polygon id="pma" points="49.18 309.14 218.94 309.14 218.94 358.1 277.46 358.1 277.46 474.63 11.72 474.63 11.72 365.63 49.18 365.63 49.18 309.14" class="map__space" />
+								<polygon data-space="1.01" points="12.72 685.56 153.78 685.56 153.78 747.64 215.44 747.64 215.44 712.85 263.89 712.85 263.89 787.41 12.72 787.41 12.72 685.56" class="map__space" />
+								<rect x="48.08" y="501.73" width="35.61" height="35.23" class="map__space" />
+								<rect x="94.01" y="501.73" width="35.61" height="35.23" class="map__space" />
+								<rect x="139.5" y="501.73" width="35.61" height="35.23" class="map__space" />
+								<rect x="48.3" y="547.25" width="35.61" height="35.23" class="map__space" />
+								<rect x="94.24" y="547.25" width="35.61" height="35.23" class="map__space" />
+								<rect x="139.72" y="547.25" width="35.61" height="35.23" class="map__space" />
+								<rect x="282.3" y="478.13" width="26.26" height="25.99" class="map__space" />
+								<polygon points="218.01 585.07 239.2 597.17 239.2 621.38 218.01 633.49 196.82 621.38 196.82 597.17 218.01 585.07" class="map__space" />
+								<polygon points="410.01 601.42 358.8 778.44 320.06 767.07 372.92 591.6 410.01 601.42" class="map__space" />
+								<polygon points="561.3,603.9 624,777 661.9,763.2 597.7,591.5" class="map__space" />
+							</svg>
+						
+							<svg class="map map--2" viewBox="0 0 1200 800" width="50%" height="50%" preserveAspectRatio="xMidYMid meet">
+								<title>Map Level 2</title>
+								<polygon points="1035.94 787.41 1035.94 423.16 855.37 423.16 855.37 350.52 1187.28 350.52 1187.28 12.59 548.09 12.59 548.09 68.87 437.36 68.87 437.36 12.59 49.37 12.59 49.37 366.5 12.72 366.5 12.72 787.41 356.2 787.41 414.93 584.41 554.4 584.41 627.81 787.41 1035.94 787.41" class="map__ground" />
+								<path d="M1187.28,12.59V350.52H855.37v72.64h180.58V787.41H627.81l-73.41-203H414.93l-58.73,203H12.72V366.5H49.37V12.59h388V68.87H548.08V12.59h639.19M1200,0H535.36V56.28H450.09V0H36.65V353.91H0V800H365.8l2.64-9.13L424.52,597H545.44l70.39,194.65,3,8.35h429.82V410.57H868.09V363.11H1200V0h0Z" class="map__outline" />
+								<polygon points="768.46 722.99 789.65 735.1 789.65 759.31 768.46 771.42 747.27 759.31 747.27 735.1 768.46 722.99" class="map__space" />
+								<rect x="666.88" y="565.62" width="26.26" height="25.99" class="map__space" />
+								<path data-space="2.07" d="M454.76,266.19h63a24.34,24.34,0,0,1,24.47,24.21h0V489.82A24.34,24.34,0,0,1,517.74,514h-63a24.34,24.34,0,0,1-24.47-24.21h0V290.4a24.34,24.34,0,0,1,24.47-24.21h0Z" class="map__space" />
+								<path d="M492.72,123.19c30.57,0,55.36-24.53,55.36-54.78H437.36C437.36,98.67,462.15,123.19,492.72,123.19Z" class="map__space" />
+								<polygon points="898.12 182.42 919.31 194.53 919.31 218.74 898.12 230.85 876.93 218.74 876.93 194.53 898.12 182.42" class="map__space" />
+								<rect x="282.3" y="478.13" width="26.26" height="25.99" class="map__space" />
+								<polygon id="ma" points="395.25 652.42 12.72 652.42 12.72 787.41 356.2 787.41 395.25 652.42" class="map__space" />
+								<rect data-space="2.02" x="12.72" y="366.5" width="157.39" height="212.11" class="map__space" />
+								<rect id="piz" x="49.37" y="12.59" width="120.74" height="120.74" class="map__space" />
+								<rect id="piz1" x="177.56" y="12" width="240.03" height="121.33" class="map__space" />
+								<rect x="49.37" y="170.48" width="60.37" height="60.37" class="map__space" />
+								<rect x="49.37" y="238.6" width="278.23" height="111.92" class="map__space" />
+								<rect id="va" x="600" y="12" width="93.14" height="249.1" class="map__space" />
+								<rect id="pan2" x="702.59" y="12.59" width="484.68" height="98.51" class="map__space" />
+								<rect id="pan1" x="968.07" y="120.1" width="219.21" height="230.42" class="map__space" />
+								<rect x="855.37" y="277.6" width="103.7" height="72.92" class="map__space" />
+								<circle data-space="2.04" cx="680.68" cy="466.59" r="66.59" class="map__space" />
+								<rect id="mcdo" x="855.37" y="423.16" width="180.58" height="364.25" class="map__space" />
+								<polygon points="627.81 787.41 716.09 787.41 716.09 646.58 576.88 646.58 627.81 787.41" class="map__space" />
+							</svg>
+							
+							<img src="surroundings.svg" class="surroundings">		
+							<div class="sidebar">
+								<ul class="map-2 shops">
+								<h1 class="floor1">Floor I</h1>
+									<li id="mcd">Mc Donald's</li>
+									<li id="max" class="offer">Max</li>
+									<li id="panta">Pantaloon</li>
+									<li id="pizza">Pizza Hut</li>
+									<li id="van" class="offer">Van Heusen</li>
+								</ul>
+								<ul class="map-1 shops">
+								<h1 class="floor2">Floor II</h1>
+									<li id="puma">Puma</li>
+									<li id="sc">Sports Club</li>
+									<li id="apple">Apple</li>
+									<li id="lee">Lee</li>
+								</ul>
+								<ul class="map-3 shops">
+								<h1 class="floor3">Floor III</h1>
+									<li id="mufti">Mufti</li>
+									<li id="reebok" class="offer">Reebok</li>
+									<li id="rolex">Rolex</li>
+									<li id="bb">Big Bazaar</li>
+									<li id="wrangler">Wrangler</li>
+									<li id="paintball">PaintBall</li>
+								</ul>
+								<ul class="map-4 shops" >
+								<h1 class="floor4">Floor IV</h1>
+									<li id="pvr" class="offer">PVR</li>
+									<li id="foodcourt">Food Court</li>
+									<li id="tp">Tattoo parlor</li>
+									<li id="matrix">Matrix Hair Salon</li>
+									<li id="pe">Peter England</li>
+								</ul>
+								
+							</div>
+							<svg class="abc" height="60" width="50" xmlns="http://www.w3.org/2000/svg" version="1.1">
+								<rect id="a" height="8" width="50" x="0" y="0" fill="#3498db"/>
+								<rect id="b" height="8" width="50" x="0" y="12" fill="#d35400" />
+								<rect id="c" height="8" width="50" x="0" y="24"  fill="#3498db"/>
+							</svg>
+
+							<div class="description">
+								<h1 id="shopname"></h1>
+								<h2 id="timing"></h2>
+								<pl class="para"></p>
+								<h2 id="contact"></h2>
+								<h2 id="offers"></h2>
+							</div>
+
+</body>
+</html>
